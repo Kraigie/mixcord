@@ -1,6 +1,8 @@
 defmodule Nostrum.Struct.Event.PartialApplication do
   @moduledoc "Sent on `READY`"
 
+  alias Nostrum.Snowflake
+
   defstruct [:id, :flags]
 
   @typedoc "ID of the application"
